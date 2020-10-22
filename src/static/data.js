@@ -31,7 +31,7 @@ export const portfolioItems = [
     title: 'Traders CMT',
     description: 'On a weekly basis, the Commodity Futures Trading Commission (CFTC) emits a report detailing the big traders activity. The way data is displayed isn\'t very "reader-friendly". This app aims to solve that. Detailed information of +440 contracts and +140,000 weeks of information.',
     image: 'positions.png',
-    github: 'pending',
+    github: 'https://github.com/barcel0/positions',
     demo: 'https://www.traderscmt.com',
     stack: ['ReactJS', 'Redux', 'Mongoose', 'Express', 'SASS']
   },
