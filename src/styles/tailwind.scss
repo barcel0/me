@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+
+body{
+  @apply font-body w-full bg-gray-800 text-gray-300 m-0 p-0;
+}
+
+p{
+  @apply my-5 tracking-wide;
+}
+
+.link{
+  @apply cursor-pointer text-orange-500 no-underline transition duration-200 ease-in-out ;
+}
+
+.link:hover{
+  @apply text-indigo-400 transform -translate-y-1;
+} 
+
+.stack-list li{
+  @apply ml-8;
+}
+
+.technologies-list{
+  @apply flex flex-wrap;
+}
+
+.technologies-list li {
+@apply bg-gray-900 my-1 mr-4 font-semibold text-sm px-6 py-1 rounded-sm;
+}
+
+.main-container{
+  @apply flex flex-col mx-8 my-8;
+  min-width: 800px;
+  max-width: 900px;
+}
+
+.grayscale {
+	filter: grayscale(100%);
+	transition: .3s ease-in-out;
+}
+
+.grayscale:hover{
+	filter: grayscale(0);
+}
+
+@tailwind components;
+@tailwind utilities;
