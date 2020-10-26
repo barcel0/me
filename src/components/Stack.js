@@ -9,14 +9,14 @@ const Stack = () => {
       </div>
       <div className="flex-col w-full mt-6 flex justify-between">
         <p>
-          Technologies I have been focusing on, in order of preference:
+          Technologies I have been focusing on:
           </p>
 
         <div className="flex w-full mr-10">
           <ul className="technologies-list text-orange-400 font-bold">
-            <li>React Native</li>
             <li>React JS</li>
             <li>Redux</li>
+            <li>React Native</li>
             <li>Express</li>
             <li>Node.js</li>
             <li>Mongoose</li>
