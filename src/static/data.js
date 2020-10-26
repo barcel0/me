@@ -2,7 +2,7 @@ export const portfolioItems = [
   {
     id: 0,
     title: 'Market Simulator',
-    description: 'The first finished React App is worth showing. Created by the end of 2018. Small stock market, 4 companies, £5000 cash, it\'s up to yo to decide when to enter or leave the market.',
+    description: 'The first React App I did. Created by the end of 2018. Small stock market, 4 companies, £5000 cash, it\'s up to yo to decide when to enter or leave the market.',
     image: 'market-simulator.png',
     github: 'https://github.com/barcel0/market-simulator',
     demo: 'https://react-market-simulator.herokuapp.com',
