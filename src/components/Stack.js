@@ -15,8 +15,9 @@ const Stack = () => {
         <div className="flex w-full mr-10">
           <ul className="technologies-list text-orange-400 font-bold">
             <li>React JS</li>
-            <li>Redux</li>
             <li>React Native</li>
+            <li>Redux</li>
+            <li>GraphQL</li>
             <li>Express</li>
             <li>Node.js</li>
             <li>Mongoose</li>
