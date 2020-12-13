@@ -11,10 +11,10 @@ const About = () => {
       <div className="w-full mt-6 flex justify-between">
         <div className="w-3/5 leading-tight mr-10">
           <p>
-            Hi there, my name is <span className="text-orange-400 font-bold">Luis Barceló</span> and I'm a <span className="text-orange-400 font-bold">Junior JavaScript Front End Developer</span>.
+            Hi there, my name is <span className="text-orange-400 font-bold">Luis Barceló</span> and I'm a <span className="text-orange-400 font-bold">Junior JavaScript Developer</span>.
           </p>
           <p>
-            I enjoy creating new applications as well as learning new technologies and methodologies that can help you producing <span className="text-orange-400 font-bold">neat code</span>. During my learning, I have been focused on <span className="text-orange-400 font-bold">React JS</span> as well as <span className="text-orange-400 font-bold">React Native</span>, while trying to build at the same time a solid JavaScript foundation.
+            I enjoy creating new applications as well as learning new technologies and methodologies that can help you producing <span className="text-orange-400 font-bold">neat code</span>. During my learning, I have been focused on <span className="text-orange-400 font-bold">React JS</span> and <span className="text-orange-400 font-bold">React Native</span>, while trying to build a solid JavaScript foundation at the same time.
             </p>
           <p>
             Always have had a genuine interest in <span className="text-orange-400 font-bold">software development</span> from a young age, even during the last years, while working as an Architect. I also have interest in finance, especially in the futures market, where I like to trade every now and then.

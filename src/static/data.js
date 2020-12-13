@@ -2,11 +2,11 @@ export const portfolioItems = [
   {
     id: 7,
     title: 'Live Chat',
-    description: "Live chat app built with ReactJS and Apollo. It relies on subscriptions (WebSocket) for keeping messages and users panels up to date. Hasura GraphQL API with PostgreSQL in the back end.",
+    description: "Live chat app built with ReactJS and Apollo. In adition to queries and mutations, it relies on subscriptions (WebSocket) for keeping messages and users sections up to date.",
     image: 'graphql-chat.png',
     github: 'https://github.com/barcel0/hasura-chat-app',
     demo: 'https://hasura-chat-app.netlify.app/',
-    stack: ['ReactJS', 'GraphQL', 'Hasura', 'PostgreSQL', 'Tailwind CSS']
+    stack: ['ReactJS', 'Apollo', 'GraphQL', 'Hasura', 'PostgreSQL', 'TailwindCSS']
   },
   {
     id: 6,
@@ -15,7 +15,7 @@ export const portfolioItems = [
     image: 'graphql-companies.png',
     github: 'https://github.com/barcel0/graphql-companies',
     demo: 'https://graphql-companies.herokuapp.com/',
-    stack: ['ReactJS', 'GraphQL', 'Express', 'Tailwind CSS']
+    stack: ['ReactJS', 'GraphQL', 'Express', 'TailwindCSS']
   },
   {
     id: 5,
