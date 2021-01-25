@@ -22,8 +22,12 @@ p{
   @apply text-yellow-400 font-bold;
 }
 
+.header-element{
+  @apply flex items-center mr-3 tracking-wide;
+}
+
 .section-title{
-  @apply flex items-end font-semibold text-gray-100;
+  @apply flex items-end tracking-wide font-semibold text-gray-100;
 }
 
 .stack-list li{

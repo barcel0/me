@@ -27,22 +27,22 @@ const Header = () => {
       </div>
       <div className={`w-full flex-grow lg:items-center lg:w-auto lg:block pt-4 lg:pt-0  ${showNavContent}`} id="nav-content">
         <ul className="list-reset lg:flex justify-end flex-1 font-semibold items-center lg:border-none">
-          <li className="flex items-center mr-3">
+          <li className="header-element">
             <a href='#about' className="link inline-block py-0 px-4">01. About</a>
           </li>
-          <li className="flex items-center mr-3">
+          <li className="header-element">
             <a href='#stack' className="link inline-block py-0 px-4">02. Technologies</a>
           </li>
-          <li className="flex items-center mr-3">
+          <li className="header-element">
             <a href='#portfolio' className="link inline-block py-0 px-4">03. Portfolio</a>
           </li>
-          <li className="flex items-center mr-3">
+          <li className="header-element">
             <a href='#education' className="link inline-block py-0 px-4">04. Education</a>
           </li>
-          <li className="flex items-center mr-3">
+          <li className="header-element">
             <a href='#contact' className="link inline-block py-0 px-4">05. Contact</a>
           </li>
-          <li className="flex items-center mr-3 font-bold border-2 border-yellow-500 rounded-md ">
+          <li className="header-element tracking-wide font-bold border-2 border-yellow-500 rounded-md ">
             <a href='./pdf/cv-2021-lbarcelo.pdf' download className="link inline-block py-0 px-4">CV</a>
           </li>
         </ul>
