@@ -2,7 +2,7 @@ export const portfolioItems = [
   {
     id: 7,
     title: 'COT Reports',
-    description: 'On a weekly basis, the Commodity Futures Trading Commission (CFTC) emits a report detailing the big traders activity. The way data is displayed isn\'t very "reader-friendly". This app aims to solve that. Detailed information of +440 contracts and +140,000 reports.',
+    description: 'Every week, the Commodity Futures Trading Commission (CFTC) publishes reports to help the public understand the market dynamics. The format this data is offered isn\'t very easy to read. This app aims to solve that. +440 contracts and +140,000 reports available.',
     image: 'cotreports.png',
     demo: 'https://www.cotreports.org',
     stack: ['ReactJS', 'Redux', 'NextJS', 'Mongoose', 'Express', 'TailwindCSS']
