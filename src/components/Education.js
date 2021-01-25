@@ -12,7 +12,7 @@ const Education = () => {
 
         <h2 className="mt-4">Courses</h2>
         <div className="flex w-full mr-10">
-          <ul className="technologies-list text-orange-400 font-bold">
+          <ul className="technologies-list text-yellow-400 font-bold">
             <li className="link"><a href='https://www.udemy.com/course/the-web-developer-bootcamp/learn/'>Udemy: The Web Developer Bootcamp</a></li>
             <li className="link"><a href='https://www.udemy.com/course/the-advanced-web-developer-bootcamp/'>Udemy: The Advanced Web Developer Bootcamp</a></li>
             <li className="link"><a href='https://www.udemy.com/course/react-redux/'>Udemy: Modern React with Redux</a></li>
@@ -26,7 +26,7 @@ const Education = () => {
 
         <h2 className="mt-4">Books</h2>
         <div className="flex w-full mr-10">
-          <ul className="technologies-list text-orange-400 font-bold">
+          <ul className="technologies-list text-yellow-400 font-bold">
             <li>You Don't Know JS, Kyle Simpson</li>
             <li>Eloquent JavaScript, Marijn Haverbeke</li>
             <li>Learning React, Kirupa Chinnathambi</li>
@@ -37,7 +37,7 @@ const Education = () => {
 
         <h2 className="mt-4">YouTube Channels</h2>
         <div className="flex w-full mr-10">
-          <ul className="technologies-list text-orange-400 font-bold">
+          <ul className="technologies-list text-yellow-400 font-bold">
             <li className="link"><a href='https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA'>Traversy Media</a></li>
             <li className="link"><a href='https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ'>freeCodeCamp.org</a></li>
             <li className="link"><a href='https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q'>Fun Fun Function</a></li>

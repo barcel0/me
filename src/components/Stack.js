@@ -13,7 +13,7 @@ const Stack = () => {
           </p>
 
         <div className="flex w-full mr-10">
-          <ul className="technologies-list text-orange-400 font-bold">
+          <ul className="technologies-list text-yellow-400 font-bold">
             <li>React JS</li>
             <li>React Native</li>
             <li>Redux</li>

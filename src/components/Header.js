@@ -42,7 +42,7 @@ const Header = () => {
           <li className="flex items-center mr-3">
             <a href='#contact' className="link inline-block py-0 px-4">05. Contact</a>
           </li>
-          <li className="flex items-center mr-3 font-bold border-2 border-orange-500 rounded-md ">
+          <li className="flex items-center mr-3 font-bold border-2 border-yellow-500 rounded-md ">
             <a href='./pdf/cv-2021-lbarcelo.pdf' download className="link inline-block py-0 px-4">CV</a>
           </li>
         </ul>
