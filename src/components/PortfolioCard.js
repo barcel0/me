@@ -43,7 +43,6 @@ const PortfolioCard = ({ id, title, description, image, github, youtube, expo, d
               <a href={github} target="_blank" rel="noopener noreferrer"><IconGitHub size={6} /></a>
             </div>
             : null}
-
         </div>
       </div>
     </div>

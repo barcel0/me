@@ -31,7 +31,7 @@ p{
 }
 
 .stack-list li{
-  @apply ml-8;
+  @apply ml-4;
 }
 
 .technologies-list{
