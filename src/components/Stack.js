@@ -14,15 +14,16 @@ const Stack = () => {
 
         <div className="flex w-full mr-10">
           <ul className="technologies-list text-yellow-400 font-bold">
-            <li>React JS</li>
-            <li>React Native</li>
+            <li>ReactJS</li>
             <li>Redux</li>
-            <li>GraphQL</li>
-            <li>Express</li>
+            <li>Next.js</li>
+            <li>Jest</li>
             <li>Node.js</li>
-            <li>Mongoose</li>
+            <li>Express</li>
             <li>MongoDB</li>
-            <li>Javascript</li>
+            <li>Mongoose</li>
+            <li>React Native</li>
+            <li>GraphQL</li>
             <li>TailwindCSS</li>
             <li>SASS</li>
             <li>Bootstrap</li>
