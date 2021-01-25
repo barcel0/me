@@ -1,8 +1,13 @@
 import React from 'react';
 
 const IconImages = ({ size }) => {
+	const remSize = `${size * 0.25}rem`;
+	const style = {
+		width: remSize,
+		height: remSize
+	}
 	return (
-		<svg className={`h-${size} w-${size} fill-current`} version="1.1" id="Images" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+		<svg className={`fill-current`} style={style} version="1.1" id="Images" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 			viewBox="0 0 20 20" enableBackground="new 0 0 20 20">
 			<path d="M17.125,6.17l-2.046-5.635c-0.151-0.416-0.595-0.637-0.989-0.492L0.492,5.006
 	 C0.098,5.15-0.101,5.603,0.051,6.019l2.156,5.941V8.777c0-1.438,1.148-2.607,2.56-2.607H8.36l4.285-3.008l2.479,3.008H17.125z

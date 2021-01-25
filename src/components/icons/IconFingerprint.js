@@ -1,8 +1,13 @@
 import React from 'react';
 
 const IconFingerprint = ({ size }) => {
+	const remSize = `${size * 0.25}rem`;
+	const style = {
+		width: remSize,
+		height: remSize
+	}
 	return (
-		<svg className={`h-${size} w-${size} fill-current`} id="Fingerprint" xmlns=" http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 20 20" >
+		<svg className={`fill-current`} style={style} id="Fingerprint" xmlns=" http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 20 20" >
 			<path d="M9.6795855,7.8502398c-0.3737011,0.09375-0.6062469,0.4970703-0.5193815,0.9003906
 	c0.7166376,3.3271484,0.8731756,6.8144531,0.4515181,10.0849619c-0.0524817,0.4106445,0.2126379,0.7895508,0.5926733,0.8461914
 	c0.0325747,0.0048828,0.0651484,0.0073242,0.096818,0.0073242c0.3411264,0,0.6388206-0.2714844,0.6876822-0.6464844

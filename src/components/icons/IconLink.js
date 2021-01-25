@@ -1,8 +1,13 @@
 import React from 'react';
 
 const IconLink = ({ size }) => {
+	const remSize = `${size * 0.25}rem`;
+	const style = {
+		width: remSize,
+		height: remSize
+	}
 	return (
-		<svg className={`h-${size} w-${size} fill-current`} id="Github" xmlns=" http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 20 20" >
+		<svg className={`fill-current`} style={style} id="Github" xmlns=" http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 20 20" >
 			<path d="M7.859,14.691l-0.81,0.805c-0.701,0.695-1.843,0.695-2.545,0c-0.336-0.334-0.521-0.779-0.521-1.252
 	c0-0.473,0.186-0.916,0.521-1.252l2.98-2.955c0.617-0.613,1.779-1.515,2.626-0.675c0.389,0.386,1.016,0.384,1.403-0.005
 	c0.385-0.389,0.383-1.017-0.006-1.402C10.069,6.527,7.941,6.791,6.088,8.63l-2.98,2.956C2.393,12.295,2,13.24,2,14.244

@@ -38,9 +38,12 @@ const PortfolioCard = ({ id, title, description, image, github, youtube, expo, d
               <a href={expo} target="_blank" rel="noopener noreferrer"><IconExpo size={6} /></a>
             </div>
             : null}
-          <div className="link">
-            <a href={github} target="_blank" rel="noopener noreferrer"><IconGitHub size={6} /></a>
-          </div>
+          {github ?
+            <div className="link">
+              <a href={github} target="_blank" rel="noopener noreferrer"><IconGitHub size={6} /></a>
+            </div>
+            : null}
+
         </div>
       </div>
     </div>
@@ -51,7 +54,6 @@ PortfolioCard.defaultProps = {
   id: 0,
   title: 'Title not found',
   description: 'Description not found',
-  github: 'Github link not found',
   stack: ['Stack items not found']
 }
 
