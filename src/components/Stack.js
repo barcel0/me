@@ -3,7 +3,7 @@ import React from 'react';
 const Stack = () => {
   return (
     <div className="border-l border-gray-700 mt-40 pl-10" id="stack">
-      <div className="flex items-center font-semibold text-gray-100">
+      <div className="section-title">
         <span className="text-xl mr-2 text-gray-600">02. </span>
         <h1 className="text-3xl ">Stack</h1>
       </div>

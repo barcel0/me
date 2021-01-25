@@ -16,7 +16,7 @@ const PortfolioCard = ({ id, title, description, image, github, youtube, expo, d
     >
       <div className="w-3/4">
         <h2 className="flex justify-end text-2xl font-semibold text-gray-100">{title}</h2>
-        <div className="bg-gray-900 leading-none rounded-sm shadow-md p-5 mt-4">{description}</div>
+        <div className="bg-gray-900 tracking-wide leading-tight rounded-sm shadow-md p-5 mt-4">{description}</div>
         <ul className="flex italic justify-end text-sm font-semibold text-gray-500 mt-1 stack-list">
           {serveStackItems(stack)}
         </ul>
